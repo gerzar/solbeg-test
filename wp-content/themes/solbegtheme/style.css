@@ -1,0 +1,39 @@
+/**
+ * Theme Name:  Solbeg
+ * Theme URI:   www.link.com
+ * Author:      GZ
+ * Author URI:  www.link.com
+ * Description: Description
+ * Tags:        Classic
+ * Version:     1.1.1
+ */
+
+ .copyright {
+    text-align: center;
+    padding-left: 30px;
+    background-color: rgba(192, 161, 20, 0.2);
+ }
+ .post {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+ }
+ .pagination {
+    display: flex;
+    list-style: none;
+ }
+ .pagination li {
+    margin: 0 5px;
+ }
+ .categories-list {
+    list-style: none;
+    padding: 0 5px;
+ }
+ .category-item {
+    padding: 5px;
+    width: 150px;
+ }
+ .category-item:hover {
+    cursor: pointer;
+    outline: 1px solid black;
+ }
